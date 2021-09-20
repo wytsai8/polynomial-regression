@@ -1,0 +1,20 @@
+biomedical	model	R-squared	adjusted_R-squared	F-statistic_p-value
+TP	TP~ poly(Time_domain_area,2, raw = TRUE)	0.2998579028501	0.159829483420121	0.168240656899703
+ALB.BCG	ALB.BCG~ poly(PeaktoPeak_Amplitude,2, raw = TRUE) + poly(Amplitude_negative_peak,3, raw = TRUE) + poly(Time_domain_area, 1, raw = TRUE) + poly(PASA_slope_0_3, 1, raw = TRUE) + poly(Midband_fit_1_2, 1, raw = TRUE) + poly(Intercept_2_3, 1, raw = TRUE)	0.994357137161854	0.977428548647415	0.00325086613007981
+GLO	GLO~ poly(FWHM_0.5_1,2, raw = TRUE)	0.0922021585764324	-0.089357409708281	0.616517954290029
+UA	UA~ poly(PeaktoPeak_Amplitude, 1, raw = TRUE) + poly(Midband_fit_0_3, 1, raw = TRUE) + poly(Prominences_2_2.5, 1, raw = TRUE)	0.861059134802769	0.814745513070359	0.000338282813573306
+CRE	CRE~ poly(PeaktoPeak_Amplitude, 1, raw = TRUE) + poly(Amplitude_negative_peak, 1, raw = TRUE) + poly(Time_domain_area,3, raw = TRUE) + poly(PASA_slope_0_3, 1, raw = TRUE)	0.881272950250474	0.762545900500948	0.0138969392274976
+TCH	TCH~ poly(PeaktoPeak_Amplitude, 1, raw = TRUE) + poly(Amplitude_positive_peak,3, raw = TRUE) + poly(Intercept_0_3, 1, raw = TRUE)	0.773616530462992	0.611914052222271	0.0320679618244136
+Na	Na~ poly(Positive_slope, 1, raw = TRUE) + poly(Midband_fit_2_3,2, raw = TRUE) + poly(FWHM_2_2.5,2, raw = TRUE)	0.813728441208396	0.680677327785822	0.0171276300383933
+K	K~ poly(Amplitude_positive_peak, 1, raw = TRUE) + poly(Prominences_1_1.5, 1, raw = TRUE)	0.406841422966614	0.288209707559936	0.0734267106543527
+Cl	Cl~ poly(Intercept_0_1, 1, raw = TRUE) + poly(FWHM_2_2.5, 1, raw = TRUE)	0.691558998094874	0.629870797713848	0.00279164715666239
+Ca	Ca~ poly(PeaktoPeak_Amplitude,2, raw = TRUE) + poly(Time_domain_area,2, raw = TRUE) + poly(PASA_slope_0_3, 1, raw = TRUE) + poly(Intercept_2_3, 1, raw = TRUE)	0.801297938001351	0.602595876002703	0.0569280344867723
+Fe	Fe~ poly(Amplitude_negative_peak, 1, raw = TRUE)	0.324696376847833	0.263305138379455	0.0420484989356883
+TIBC	TIBC~ poly(PeaktoPeak_Amplitude, 1, raw = TRUE) + poly(Midband_fit_0_3, 1, raw = TRUE) + poly(Intercept_2_3, 1, raw = TRUE) + poly(Intercept_0_3, 1, raw = TRUE)	0.494868983117076	0.242303474675613	0.193979585959419
+HDL.C	HDL.C~ poly(Prominences_2_2.5, 1, raw = TRUE)	0.525639626759837	0.482515956465277	0.00504706792145207
+LDL.C	LDL.C~ poly(Amplitude_positive_peak,3, raw = TRUE) + poly(FWHM_1_1.5, 1, raw = TRUE)	0.682044623826817	0.523066935740226	0.0381031945132336
+NA	NA	NA	NA	NA
+NA	NA	NA	NA	NA
+NA	NA	NA	NA	NA
+NA	NA	NA	NA	NA
+NA	NA	NA	NA	NA
