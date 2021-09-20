@@ -2,16 +2,17 @@
 
 Our analysis is divided into two parts, 
 
-Photoacoustic/optical imaging featers:
+:black_small_square:Photoacoustic/optical imaging featers:
 
-First, signal analysis process by MATLAB.
+Signal analysis process by MATLAB.
 The data and scripts are in the folder of “image_features”. The example input files are in the photoacoustic and optical folders, separately. The folders include signal raw data (sampleA to sampleM) and a sample list, which including all the sample names. Please change the data folder in features_main.m and execute the file. 
 
 The result file will be generated in polynomial_regression/model/data. The name of the result file is photoacoustic_image.txt or optical_image.txt.
+Please also put the corresponding file of biochemical parameters in polynomial_regression/model/data for the polynomial regression analysis.
 
-Polynomial regression model: 
+:black_small_square:Polynomial regression model: 
 
-Second, polynomial regression model for biochemical parameters prediction by R.
+Polynomial regression model for biochemical parameters prediction by R.
 The prediction model includes:
 (1)	Spearman’s correlation
 (2)	Multicollinearity diagnose
