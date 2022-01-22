@@ -2,7 +2,7 @@
 
 Our analysis is divided into two parts, 
 
-- Photoacoustic/optical imaging featers:
+- Photoacoustic/optical imaging features:
 
 Signal analysis process by MATLAB.
 The data and scripts are in the folder of “image_features”. The example input files are in the photoacoustic and optical folders, separately. The folders include signal raw data (sampleA to sampleM) and a sample list, which including all the sample names. Please change the data folder in features_main.m and execute the file. 
